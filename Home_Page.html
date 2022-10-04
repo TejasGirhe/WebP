@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript" src="myscripts.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form>
+        <h4>Home</h4>
+        <br>
+        <h4>Logged in as : Mess Representative / Volunteer /  Admin</h4>
+        <label for="name">Name : Jeff Bezos</label>
+
+        <span for="roll">Roll Number : B696969CS</span><br><br>
+        <span id="dropbtn">Today's Availability</span><br>
+        <select name="login-type" id="login-type" > // onchange="loginAs(this.value)"
+            <option >Availabile</option>
+            <option >Unavailabile</option>
+        </select>
+
+        <label for="password">Reason</label>
+        <input type="password" placeholder="Reason" id="password">
+
+        <button onclick="loginAs('Login')">Submit</button>
+        <!-- <div class="social">
+            <div class="go"><i class="fab fa-google"></i> Google</div>
+            <div class="fb"><i class="fab fa-facebook"></i> Facebook</div>
+        </div> -->
+    </form>
+</body>
+
+</html>
